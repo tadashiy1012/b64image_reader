@@ -1,0 +1,20 @@
+{
+  "name": "b64image_reader",
+  "version": "1.0.0",
+  "description": "Read all the image file in the Base64 format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "keywords": [],
+  "author": "Tadashi Yamazaki <tadashi.y1012@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^2.5.3",
+    "power-assert": "^1.4.1"
+  },
+  "directories": {
+    "test": "test/"
+  }
+}
