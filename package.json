@@ -1,14 +1,19 @@
 {
   "name": "b64image_reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read all the image file in the Base64 format",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require intelli-espower-loader"
   },
-  "keywords": [],
+  "keywords": ["Base64", "jpg", "png"],
   "author": "Tadashi Yamazaki <tadashi.y1012@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/tadashiy1012/b64image_reader",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tadashiy1012/b64image_reader.git"
+  },
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",
     "mocha": "^2.5.3",
