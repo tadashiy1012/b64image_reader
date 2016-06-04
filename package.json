@@ -1,6 +1,6 @@
 {
   "name": "b64image_reader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read all the image file in the Base64 format",
   "main": "index.js",
   "scripts": {
