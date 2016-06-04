@@ -23,4 +23,11 @@ describe('b64image_reader test', () => {
     assert(Array.isArray(result));
     assert(result[0].substring(0, result[0].indexOf(',')) === 'data:image/jpg;base64');
   });
+  it('Pattern of not as expected argument B', () => {
+    try {
+      reader();
+    } catch (err) {
+      assert(err !== undefined);
+    }
+  });
 });
